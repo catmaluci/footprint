@@ -1,0 +1,28 @@
+# --- ENTORNOS VIRTUALES (PYTHON) ---
+# Ignora la carpeta donde están instaladas tus librerías locales
+venv/
+.venv/
+env/
+ENV/
+
+# --- CACHÉ DE PYTHON ---
+# Ignora los archivos temporales que genera Python al ejecutarse
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- CONFIGURACIÓN DE STREAMLIT ---
+# Ignora las credenciales o configuraciones locales de Streamlit
+.streamlit/config.toml
+
+# --- SISTEMA OPERATIVO ---
+# Archivos basura automáticos de Mac y Windows
+.DS_Store
+Thumbs.db
+
+# --- CONFIGURACIÓN DE EDITORES (VS Code / Replit) ---
+# Ignora configuraciones específicas de tu editor de código
+.vscode/
+.replit
+replit.nix
