@@ -35,7 +35,7 @@ Para ejecutar este proyecto en tu computadora, asegúrate de tener instalado **P
 ### 1. Clonar el proyecto o situarte en la carpeta
 Abre tu terminal y navega hasta la carpeta raíz donde se encuentra el archivo `app_web.py`.
 
-### 2. Crear y activar tu Entorno Virtual (Recomendado)
+### 2. Crear y activar tu Entorno Virtual - MAC
 ```bash
 # Crear el entorno virtual
 python3 -m venv venv
