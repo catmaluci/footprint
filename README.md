@@ -35,7 +35,7 @@ Para ejecutar este proyecto en tu computadora, asegúrate de tener instalado **P
 ### 1. Clonar el proyecto o situarte en la carpeta
 Abre tu terminal y navega hasta la carpeta raíz donde se encuentra el archivo `app_web.py`.
 
-### 2. Crear y activar tu Entorno Virtual - MAC
+### 2. Crear y activar tu Entorno Virtual 
 ```bash
 # Crear el entorno virtual
 python3 -m venv venv
@@ -45,3 +45,33 @@ source venv/bin/activate
 
 # Activar el entorno virtual (En Windows)
 venv\Scripts\activate
+``` 
+ 
+### 3. Instalar las Librerías Necesarias
+Instala las dependencias requeridas ejecutando:
+```bash
+pip install streamlit pandas plotly requests scikit-learn numpy
+``` 
+
+### 4. Ejecutar la Aplicación
+Para levantar el servidor local de Streamlit, usa el siguiente comando integrado con Python:
+```bash
+python3 -m streamlit run app_web.py
+``` 
+(Si estás en Windows o tu comando por defecto es diferente, puedes usar simplemente: streamlit run app_web.py).
+Una vez ejecutado, se abrirá automáticamente una pestaña en tu navegador web en la dirección local http://localhost:8501.
+
+
+### ⚙️ Tecnologías Utilizadas
+* **Python 3**- Lenguaje núcleo del desarrollo.
+* **Streamlit** - Framework para el prototipado rápido de la Interfaz de Usuario (UI).
+* **Scikit-Learn** - Biblioteca para la inicialización y entrenamiento del modelo de Machine Learning.
+* **Plotly Express** - Generación de gráficos dinámicos, responsivos y estilizados.
+* **Pandas & Numpy** - Manipulación, estructuración y vectorización de datos e históricos.
+* **Requests** - Conectividad e inspección de cabeceras HTTP en tiempo real.
+
+### 👩‍💻 Coder Info
+* **GitHub:** [catmaluci](https://github.com/catmaluci/)
+* **LinkedIn:** [Mariuxi Olaya](https://www.linkedin.com/in/molaya)
+* **Metodología:** Vibe Coding (Desarrollo guiado por IA y prototipado veloz).
+* **Bootcamp:** Curso IA & Python - 100 horas
